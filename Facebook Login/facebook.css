@@ -1,0 +1,278 @@
+a{
+    color:none;
+    text-decoration: none;
+ }
+
+/**********************TITLE********************/
+
+.title-box { 
+              width:39%;
+              height:180px;
+              position:absolute;
+              top:176px;
+              left:157px
+           } 
+
+.title-box img {
+                width:301px;
+               }
+
+.title-info {
+              font-family:helvetica, arial, sans-serif;
+              font-weight: 200;
+              font-size:28px;
+              position:absolute;
+              top:70px;
+              left:27px;
+            }
+
+/**********************LOGIN********************/
+
+.form-box{ 
+            background:#fff;
+            border-radius: 8px;
+            width:29%;
+            height: 350px;
+            position:absolute;
+            top: 132px;
+            right:202px;
+            box-shadow:0 4px 14px 0 rgba(66, 64, 64, 0.2);
+            cursor:none; 
+          }
+
+ 
+input{
+        display:block;
+        border:1px solid rgb(224, 210, 210);
+        font-size:17px;
+        cursor:text;
+      }
+
+input::placeholder{
+                    color:rgb(170, 155, 155);
+                    font-size:17px;
+                  }
+
+input:focus{
+              outline:1px solid#1877f2;
+            }
+
+input:focus::placeholder {
+                            opacity:0.5;
+                          }
+
+
+/**LOGIN INPUT**/
+
+.login-input {
+                padding:18px;
+              }
+
+.input-email {         
+                width:93%;
+                margin: 0.1% 0.1px 15px;
+                
+                padding: 10px 12px;
+                height: 29px;
+                border-radius:6px;
+              }
+
+.input-password {
+                  width:93%;
+                  margin: 0.1% 0.1px 15px;
+                  
+                  padding: 10px 12px;
+                  height: 29px;
+                  border-radius:6px;
+                }
+
+
+/**LOGIN BUTTONS**/
+
+
+ button{
+          display:block;
+       }
+
+.login-button { 
+                width:100%;
+                margin: 0.1% 0.1px 15px;
+                padding: 10px 12px;
+                height: 49px;
+                border:none;
+                border-radius:6px;
+                font-size: 20px;
+                font-weight: 700;
+                color:white;
+                background-color:#3180e7;
+              }
+.login-button:hover{
+                      cursor:pointer;
+                      background-color:#2976db;
+                   }
+
+a.forgot-password {
+                    display:block;
+                    text-align:center;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-family:Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
+                    color:#3180e7;
+                    margin-bottom:17px;
+                  }
+a.forgot-password:hover{
+                          cursor:pointer;
+                          text-decoration: underline;
+                       }
+
+.rule {
+        height:1px;
+        border:none;
+        background-color:rgb(224, 210, 210);
+      }
+
+.new-account-button {
+                      display:block;
+                      margin: 30px auto;
+                      padding-left:0.1px;
+                      padding-right:0.1px;
+                      height:50px;
+                      width:55%;
+                      border:none;
+                      border-radius:6px;
+                      color:white;
+                      background-color:rgb(47, 187, 47);
+                      font-size:17px;
+                      font-weight:700;
+                    }
+.new-account-button:hover{
+                            cursor:pointer;
+                            background-color:rgb(38, 173, 38);
+                         }
+
+/**CELEBRITY LINK**/
+
+
+div.celebrity {
+                text-align:center;
+                width:auto;
+                position:absolute;
+                top:494px;
+                right:246px;
+                font-size:13px;
+                font-family:Arial, Helvetica, sans-serif;
+              }
+  
+a.celebrity-link { 
+                    color:black;
+                    text-decoration:none;
+                    font-weight:800;
+                 }
+
+a.celebrity-link:hover{
+                        cursor:pointer;
+                        text-decoration:underline;
+                      }
+
+/**********************FOOT NOTE********************/
+
+#foot-note-container {
+                        background-color:white;
+                        position:absolute;
+                        top: 100%;
+                        left:0px;
+                        height:177px;
+                        width:100%;
+                        margin-right: 30px; 
+                        display:inline-block;
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size:12px;
+                        text-transform:capitalize;
+                        color:rgb(138, 136, 136);
+                     }
+
+.foot-note { 
+              border:none;
+              width:80%;
+              margin:0 auto;
+              margin-top: 19px;
+              position:absolute;
+              left:184px;
+              line-height:19px;
+           }
+
+a[ class~=lingua] {
+                    display:inline-block;
+                    color:inherit;
+                    cursor:pointer;
+                  }
+
+a:hover {
+           text-decoration: underline;
+        }
+
+
+/**FOOT NOTE COUNTRIES**/
+
+
+.countries a { 
+                margin-right:7px;
+                margin-bottom: 0px;
+             }
+
+
+
+.english{
+          color:rgb(128, 123, 123);
+          display:inline-block;
+          margin-right:7px;
+        }
+
+#plus {
+          display:inline-block; 
+          color:rgb(75, 74, 74);
+          border:1px solid rgb(202, 198, 198);
+          border-radius: 2px;
+          background-color:rgb(246, 246, 246) ;
+          text-decoration: none;
+          position: absolute;
+          text-align: top;
+          padding:0px 8px;
+          margin-top: 5px; 
+          height:20px;
+          font-weight:500;
+          font-size:23px;
+          box-sizing: content-box;
+      }
+
+
+#plus:hover{
+              background-color:rgb(240, 239, 239); 
+           }
+    
+/**HORIZONTAL RULE**/
+
+
+.foot-note-rule{
+                  opacity:  0.3;
+                  margin-top: 0px;
+                  width:90%;
+                  margin-left:0px;
+               }
+
+
+/**FOOT NOTE MENU**/
+
+.menu a {
+          margin-right:17px;
+        }
+
+#menu-meta {
+              font-size:11px;
+              margin-top:13px;
+           }
+
+
+
+
